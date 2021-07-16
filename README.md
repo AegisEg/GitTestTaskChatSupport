@@ -2,8 +2,7 @@
 An example of development on vue.js, node.js,PHP(Laravel)
 # Getting started Node JS Server 
 Write to file "nodeJs/vue/src/config.js" with the actual api url of the laravel server and url webSockets server.
-Fill the nodeJs/.env file with up-to-date data
-
+Fill the nodeJs/.env file with up-to-date data.
 ```
 PORT=8000
 LARAVEL_API_URL=http://testlaravel.ru/api/
