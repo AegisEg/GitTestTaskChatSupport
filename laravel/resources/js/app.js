@@ -5,16 +5,8 @@
  */
 
 require('./bootstrap');
-import { library } from '@fortawesome/fontawesome-svg-core';
-import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-import { faPaperclip, faSmile } from '@fortawesome/free-solid-svg-icons';
 
 window.Vue = require('vue').default;
-
-library.add(faPaperclip, faSmile)
-
-Vue.component('font-awesome-icon', FontAwesomeIcon)
-
 
 /**
  * The following block of code may be used to automatically register your
