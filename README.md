@@ -1,5 +1,8 @@
 # GitTestTaskChatSupport
 An example of development on vue.js, node.js,PHP(Laravel)
+# Install Redis
+https://redis.io/topics/quickstart
+
 # Getting started Node JS Server 
 Write to file "nodeJs/vue/src/config.js" with the actual api url of the laravel server and url webSockets server(Node Server URL).
 
