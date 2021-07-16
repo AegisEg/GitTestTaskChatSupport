@@ -3,6 +3,7 @@ An example of development on vue.js, node.js,PHP(Laravel)
 # Getting started Node JS Server 
 Write to file "nodeJs/vue/src/config.js" with the actual api url of the laravel server and url webSockets server.
 
+Copy and rename the file nodeJs/.env.example to nodeJs/.env.
 Fill the nodeJs/.env file with up-to-date data.
 ```
 PORT=8000
@@ -19,7 +20,7 @@ npm run build
  ```
 # Getting started Laravel Server
 Write to file "laravel/resources/js/config.js" with the actual api url of the laravel server.
-
+Copy and rename the file laravel/.env.example to laravel/.env.
 Fill the laravel/.env file with up-to-date data
 ```
 
