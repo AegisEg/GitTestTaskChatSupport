@@ -21,16 +21,6 @@ class UsersTableSeeder extends Seeder
         \DB::table('users')->insert(array (
             0 => 
             array (
-                'id' => 1,
-                'name' => 'Aega',
-                'email' => 'neostar1996@mail.ru',
-                'online' => 0,
-                'password' => '$2y$10$syM4tUJhsFuCe0N.dFvO6uf1gktqaFEozIRHqva/wZ8F3B6MwZDfG',
-                'created_at' => '2021-07-10 07:04:43',
-                'updated_at' => '2021-07-10 07:04:43',
-            ),
-            1 => 
-            array (
                 'id' => 2,
                 'name' => 'AegaAdmin',
                 'email' => 'neostar19962@mail.ru',
@@ -38,6 +28,16 @@ class UsersTableSeeder extends Seeder
                 'password' => '$2y$10$e326FUnELvzU.2NSUD49Q.vQxrJrf8LG1nHVBxuTnh7bd172PYczm',
                 'created_at' => '2021-07-10 21:48:57',
                 'updated_at' => '2021-07-10 21:48:57',
+            ),
+            1 => 
+            array (
+                'id' => 4,
+                'name' => 'Admin3',
+                'email' => 'adsad@mail.ru',
+                'online' => 0,
+                'password' => '$2y$10$mZ.8Gs3d4Gj9uxl8S4xBY.8S5c4PP62hbeyoW06.BthG84OWrk5i6',
+                'created_at' => '2021-07-16 08:27:17',
+                'updated_at' => '2021-07-16 08:27:17',
             ),
         ));
         

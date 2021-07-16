@@ -22,14 +22,14 @@ class RolesTableSeeder extends Seeder
             0 => 
             array (
                 'id' => 1,
-                'name' => 'Юзер',
+                'name' => 'user',
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
             1 => 
             array (
                 'id' => 2,
-                'name' => 'Админ',
+                'name' => 'admin',
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
