@@ -30,7 +30,6 @@
 import { mapActions, mapGetters } from "vuex";
 import SocketController from "../controllers/SocketController";
 import vueCustomScrollbar from "vue-custom-scrollbar";
-import "vue2-perfect-scrollbar/dist/vue2-perfect-scrollbar.css";
 const ChatItem = () => import("../components/ChatItem.vue");
 const MessageBox = () => import("../components/MessageBox.vue");
 const Loading = () => import("../components/Loading.vue");
