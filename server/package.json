@@ -1,0 +1,26 @@
+{
+    "name": "chat-server",
+    "version": "1.0.0",
+    "description": "Chat express server",
+    "author": "Vasilev Egor",
+    "main": "index.js",
+    "engines": {
+        "node": ">=8.0.0"
+    },
+    "dependencies": {
+        "axios": "^0.21.1",
+        "connect-history-api-fallback": "^1.6.0",
+        "dotenv": "^10.0.0",
+        "express": "^4.17.1",
+        "redis": "^3.1.2",
+        "socket.io": "^4.1.2"
+    },
+    "scripts": {
+        "build": "rollup -c",
+        "dev": "rollup -c -w",
+        "setup": "node setup.js",
+        "start": "nodemon index.js",
+        "production": "NODE_ENV=production node index.js",
+        "inspect": "nodemon --inspect index.js"
+    }
+}
